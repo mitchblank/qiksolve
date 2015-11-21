@@ -45,6 +45,7 @@
 #include <set>
 #include <map>
 #include <string>
+#include <algorithm>
 #include <limits>
 #include <cmath>
 #include <cassert>
