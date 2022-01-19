@@ -268,7 +268,7 @@ Dictionary::Dictionary(FILE * const dictionary_file, unsigned const word_length)
 			keys_.push_back(it->first);
 		}
 #if 0
-		fprintf(stderr, "Seaching for %u (2^%lf) words (%u unique without anagrams)\n",
+		fprintf(stderr, "Searching for %u (2^%lf) words (%u unique without anagrams)\n",
 			static_cast<unsigned>(total_words),
 			log(total_words) / M_LN2,
 			static_cast<unsigned>(words_.size()));
